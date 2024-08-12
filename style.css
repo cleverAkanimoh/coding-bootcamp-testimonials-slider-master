@@ -1,0 +1,57 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.image-button-wrapper {
+  position: relative;
+  height: fit-content;
+}
+
+.slide-button-wrapper {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+.slide-button {
+  border: 0;
+  outline: 0;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px 0 0 20px;
+  transition: all 0.5s;
+}
+.next {
+  border-radius: 0 20px 20px 0px;
+}
+
+.slide-button:hover {
+  opacity: 0.5;
+}
+
+.slide-button:active {
+  scale: 0.9;
+}
+
+.card {
+  max-width: 320px;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10%;
+}
